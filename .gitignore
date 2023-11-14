@@ -24,3 +24,10 @@ run
 # Files from Forge MDK
 forge*changelog.txt
 *.properties
+*.gradle
+gradlew
+*.bat
+gradle/wrapper/gradle-wrapper.jar
+.vscode/tasks.json
+.vscode/settings.json
+.vscode/launch.json
