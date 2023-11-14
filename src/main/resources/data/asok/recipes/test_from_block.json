@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"asok:test_block"
+        }
+    ],
+    "result":{
+        "item": "asok:test",
+        "count": 9
+    }
+
+}
