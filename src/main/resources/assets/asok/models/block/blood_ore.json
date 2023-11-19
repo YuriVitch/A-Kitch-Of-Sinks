@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "asok:block/blood_ore_stone"
+  }
+}

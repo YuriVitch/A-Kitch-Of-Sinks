@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "asok:test_block"
+        "asok:test_block",
+        "asok:blood_ore"
     ]
 }
