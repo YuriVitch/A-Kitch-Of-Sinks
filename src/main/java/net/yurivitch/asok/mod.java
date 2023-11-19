@@ -1,6 +1,9 @@
 package net.yurivitch.asok;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.yurivitch.asok.villager.ModVillagers;
 import org.slf4j.Logger;
 
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +29,7 @@ public class mod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -34,13 +38,16 @@ public class mod {
 
     private void commonSetup(final FMLCommonSetupEvent event){
       LOGGER.info("Hello World");
+      event.enqueueWork(() -> {
+         ModVillagers.registerPOIs();
+      });
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class ClientModEvents{
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event){
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEST_CROP.get(), RenderType.cutout());
         }
     }
 }

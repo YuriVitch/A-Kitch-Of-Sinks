@@ -1,7 +1,19 @@
 {
     "item.asok.test": "Test",
     "item.asok.super_test": "SUPER test",
+    "item.asok.seed_test": "Test Seed",
     "itemGroup.ASOK": "ASOK",
+
     "block.asok.test_block": "Test Block",
-    "block.asok.jump_test_block": "Jumpy Test Block"
+    "block.asok.jump_test_block": "Jumpy Test Block",
+    "block.asok.lamp_test_block": "Test Lamp Block",
+    "block.asok.test_crop": "Test Crop",
+
+    "entity.minecraft.villager.asok.test_master": "Test Master",
+    //Keep Testing stuff above
+
+    //Ultrakill References
+    "item.asok.blood": "Blood",
+
+    "block.asok.blood_ore": "Blood Ore"
 }

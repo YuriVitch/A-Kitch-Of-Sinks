@@ -1,0 +1,9 @@
+[] UltraKill weapons made from ore = Blood
+    [x] Blood ore
+    [] Blood ore Generation
+    [] Weapons
+    [] Weapon Recipes
+    [] Optional: Blood block that becomes liquid
+[] Big hammer w/ shockwave effect
+[] Enderpearl arrow
+[] Chair Of Noble Boss

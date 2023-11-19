@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "lit=true": {"model": "asok:block/lamp_test_block_on"},
+        "lit=false": {"model": "asok:block/lamp_test_block_off"}
+    }
+}
